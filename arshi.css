@@ -1,0 +1,66 @@
+html{
+    background-color: #62b9ce;
+}
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #62b9ce;
+}
+
+header {
+    background-color: #8db5e3;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color:pink;
+}
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+section {
+    padding: 20px;
+    background-color: rgb(213, 127, 213);
+    margin: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.portfolio-item {
+    margin: 20px 0;
+    text-align: center;
+    text-decoration: none;
+}
+@media (max-width: 600px) {
+    header {
+        font-size: 18px;
+    }
+
+    nav ul li {
+        margin: 0 10px;
+    }
+
+    section {
+        padding: 10px;
+        margin: 10px;
+    }
+}
